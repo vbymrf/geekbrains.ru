@@ -47,6 +47,7 @@ public class Server {
             o.sendMsg(msg);
         }
     }
+    // ДЗ 2
     public void forNick(String Nick, String Mess){
             for (ClientHandler o: clients){
                     if (o.getNick().equals(Nick)) {

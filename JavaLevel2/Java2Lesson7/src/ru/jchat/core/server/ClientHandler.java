@@ -41,7 +41,7 @@ public class ClientHandler {
                         }
                         while (true) {
                             String msg = in.readUTF();
-// Добавление команды /w
+// Добавление команды /w  ДЗ2
                             if (msg.startsWith("/w")){
                                 String[] data = msg.split("\\s");
                                 String Mess="";
